@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.10&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9pDsv6_-wuRE238jgQiSdXnGa54-9s3FwgoN5hSeLT1pVAcY4vHRhmZnRFEw8pq1ObY9gNQLQHS94XsGv7OevcohMew9-WiDcYS7O00gkJgH_1weYGVIQZmDE&disp=emb&realattid=ii_lid8br4w3);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.front{
+    padding-top: 3%;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.11&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8zbGTzJ7JZmogeyuembBe5fVkuogZ_QMQHXKpBFxIhCy9uhEUaRQP2gNFQsF8rGlC7lwn-BKIksSezkniPnSGE8ZWbmWMbzVGV3p88dRreYAzKY3bkuLeGmKg&disp=emb&realattid=ii_lid8br6r11);
+    background-size: 100%;
+}
+
+.social-links{
+    position: sticky;
+    top: 2rem;
+    display: inline;
+    float: right;
+    margin-top: 11%;
+    margin-right: 0.5%;
+    margin-bottom: 3rem;
+}
+.socials > img{
+    height: 2rem;
+}
+.social-links > ul{
+    list-style-type: none;
+}
+.socials:hover{
+    cursor: pointer;
+}
+
+.main-page{
+    margin-inline: 5%;
+    margin-top: 5%;
+}
+.title{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 3rem;
+    padding-inline: 2rem;
+    color: white;
+    border-radius: 4rem;
+}
+#sven{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+#left-name{
+    font-size: 25rem;
+    display: inline;
+    line-height: 90%;
+    color:rgb(255, 0, 157)
+}
+#right-name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 9rem;
+}
+#person{
+    display: inline-block;
+    float: right;
+    margin-right: 5rem;
+    height: 21.5rem;
+    border-radius: 3rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.5);
+}
+.about{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    padding-inline: 12rem;
+    padding-top: 2rem;
+    text-align: justify;
+    padding-bottom: 6rem;
+}
+.hskill{
+    color: rgb(255, 0, 157);
+    font-weight: bold;
+}
+
+
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: linear-gradient(0deg, black, rgb(35, 35, 35), black );
+    color: white;
+    font-size: 1.1rem;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-weight: 500;
+    border-block: 0.25rem solid rgb(37, 37, 37);
+}
+.nav > span{
+
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    text-decoration: none;
+}
+.nav > span:hover{
+    background-color: #2b7ddd;
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
+    margin-inline: 1rem;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.nav > span > a:visited{
+    color: white;
+    text-decoration: none;
+}
+.nav > span > a:link{
+    text-decoration: none;
+    color: white;
+}
+
+
+#ABOUT{
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+.aboutmain{
+    margin-inline: 12.5%;
+    padding-inline: 5%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 2rem;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.1&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9EDqUP9MsR92jCFqTAbcjYIgv88p9ypD7knWwBkWKpXTO5YLCN53uizNtD-GU6Rhruv4yi9yX8waiHUcO6uLYa8LNDD9Wb_xgV6NWIz1aI3UZQtw91AFJ3gFQ&disp=emb&realattid=ii_lid8br440);
+    background-size:cover;
+}
+.aboutmain > span{
+    display: inline-block;
+    height: 8em;
+    width: 22rem;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-block: 0.25rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#about-box1{
+    align-self: flex-end;
+    text-align: justify;
+    color: white;
+
+}
+
+#about-box2{
+    align-self: center;
+    height: 18.25rem;
+    border-radius: 2rem;
+}
+#about-box3{
+    align-self: flex-start;
+    text-align: justify;
+    color: white;
+}
+
+
+#pro{
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 7rem;
+    text-align: center;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.11&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8zbGTzJ7JZmogeyuembBe5fVkuogZ_QMQHXKpBFxIhCy9uhEUaRQP2gNFQsF8rGlC7lwn-BKIksSezkniPnSGE8ZWbmWMbzVGV3p88dRreYAzKY3bkuLeGmKg&disp=emb&realattid=ii_lid8br6r11);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#PROJECTS{
+    padding-top: 5%;
+    margin-inline: 10%;
+    margin-bottom: 10%;
+}
+.project-flex1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(23, 23, 23);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border:0.7rem solid green;
+    border-bottom: none;
+}
+.project-flex2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(23, 23, 23);
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border:0.7rem solid green;
+    border-top: none;
+}
+.probox{
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color:rgb(50, 50, 50);
+    padding-block: 0.5rem;
+    border-radius: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    padding-inline: 0.2rem;
+    margin: 3rem;
+    box-shadow: 1rem 1rem 3rem 0rem black;
+}
+.probox > img{
+
+    height: 22rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+.probox:hover{
+    cursor: pointer;
+}
+
+.formpage{
+    background-image: linear-gradient(135deg, #101010, #303030, #101010);
+    padding-bottom: 3%;
+    border: 0.7rem solid green;
+    border-radius: 2rem;
+    margin-inline: 2%;
+}
+.contact-main{
+    color: white;
+    font-size: 1.5rem;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    -webkit-background-clip: content-box;
+}
+
+.handshake{
+    padding-top: 2rem;
+    height: 20rem;
+}
+.handshake-img{
+    width: 20%;
+}
+.contact-info{
+    width: 30%;
+    margin-top: 3rem;
+}
+.form > input{
+    background-image: linear-gradient(135deg, #0300b4, #d300b7);
+    height: 2.5rem;
+    width: 20rem;
+    color: rgb(0, 255, 0);
+    border-radius: 1.25rem;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    padding-inline: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.request{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+#callback{
+    font-size: 2rem;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-weight: 1000;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: black 0.1rem 0.1rem 0rem 0.1rem;
+    background-image: linear-gradient(135deg, #020081, #970065);
+}
+
+.codepen{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.codepen > a{
+    font-size: 1.5rem;
+    color: rgb(0, 81, 255);
+}
+.codepen > a:link{
+    font-size: 1.5rem;
+    color: rgb(0, 81, 255);
+}
+.codepen > a:visited{
+    font-size: 1.5rem;
+    color: rgb(0, 81, 255);
+}
