@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.10&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9pDsv6_-wuRE238jgQiSdXnGa54-9s3FwgoN5hSeLT1pVAcY4vHRhmZnRFEw8pq1ObY9gNQLQHS94XsGv7OevcohMew9-WiDcYS7O00gkJgH_1weYGVIQZmDE&disp=emb&realattid=ii_lid8br4w3);
+    background-image: url(portfolio.images/dark-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body{
 
 .front{
     padding-top: 3%;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.11&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8zbGTzJ7JZmogeyuembBe5fVkuogZ_QMQHXKpBFxIhCy9uhEUaRQP2gNFQsF8rGlC7lwn-BKIksSezkniPnSGE8ZWbmWMbzVGV3p88dRreYAzKY3bkuLeGmKg&disp=emb&realattid=ii_lid8br6r11);
+    background-image: url(portfolio.images/portbg.jpg);
     background-size: 100%;
 }
 
@@ -141,7 +141,7 @@ body{
     flex-direction: column;
 
     border-radius: 2rem;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.1&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9EDqUP9MsR92jCFqTAbcjYIgv88p9ypD7knWwBkWKpXTO5YLCN53uizNtD-GU6Rhruv4yi9yX8waiHUcO6uLYa8LNDD9Wb_xgV6NWIz1aI3UZQtw91AFJ3gFQ&disp=emb&realattid=ii_lid8br440);
+    background-image: url(portfolio.images/about-bg.jpg);
     background-size:cover;
 }
 .aboutmain > span{
@@ -179,7 +179,7 @@ body{
     font-weight: 1000;
     font-size: 7rem;
     text-align: center;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3a97b9ad48&attid=0.11&permmsgid=msg-a:r2861291458593685690&th=188775a5adfcb5c3&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8zbGTzJ7JZmogeyuembBe5fVkuogZ_QMQHXKpBFxIhCy9uhEUaRQP2gNFQsF8rGlC7lwn-BKIksSezkniPnSGE8ZWbmWMbzVGV3p88dRreYAzKY3bkuLeGmKg&disp=emb&realattid=ii_lid8br6r11);
+    background-image: url(portfolio.images/portbg.jpg);
     background-size: cover;
     -webkit-background-clip: text;
     color: transparent;
