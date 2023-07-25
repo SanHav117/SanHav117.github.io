@@ -280,8 +280,7 @@ body{
     display: flex;
     width: auto;
     justify-content: center;
-    margin-top: 3%;
-
+    margin-block: 3%;
 }
 #callback{
     font-size: 2rem;
@@ -313,3 +312,40 @@ body{
     font-size: 1.5rem;
     color: rgb(0, 81, 255);
 }
+
+@media only screen and (max-width: 500px) {
+    html{
+        width: 152%; 
+        align-content: 
+    }
+    body{
+        background-size: cover;
+        
+    }
+    .front{
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-inline: 0;
+        padding-inline: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sven{
+        margin-right: 15%;
+    }
+}
+#person{
+  display: inline-block;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+.about{
+    padding-inline: 3rem;
+    display: inline-block;
+}
+
+}
+  
